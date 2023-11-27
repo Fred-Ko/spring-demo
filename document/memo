@@ -1,0 +1,48 @@
+my-project/
+  ├── src/
+  │    ├── main/
+  │    │    ├── java/
+  │    │    │    ├── com/
+  │    │    │    │    ├── myproject/
+  │    │    │    │    │    ├── application/
+  │    │    │    │    │    │    ├── UserController.java
+  │    │    │    │    │    │    ├── UserDTO.java
+  │    │    │    │    │    ├── domain/
+  │    │    │    │    │    │    ├── User.java
+  │    │    │    │    │    ├── repository/
+  │    │    │    │    │    │    ├── UserRepository.java
+  │    │    │    │    │    ├── service/
+  │    │    │    │    │    │    ├── UserService.java
+  │    │    │    │    │    │    ├── UserServiceImpl.java
+  │    │    │    │    │    ├── controller/
+  │    │    │    │    │    │    ├── UserQueryController.java
+  │    │    │    │    │    │    ├── UserCommandController.java
+  │    │    │    │    │    ├── query/
+  │    │    │    │    │    │    ├── UserQueryHandler.java
+  │    │    │    │    │    │    ├── UserQueryDTO.java
+  │    │    │    │    │    ├── command/
+  │    │    │    │    │    │    ├── UserCommandHandler.java
+  │    │    │    │    │    │    ├── UserCommandDTO.java
+  │    │    │    ├── resources/
+  │    │    │    │    ├── application.yml
+  ├── build.gradle
+---
+├── application/
+│    ├── UserController.java
+│    ├── UserDTO.java
+├── domain/
+│    ├── User.java
+├── repository/
+│    ├── UserRepository.java
+├── service/
+│    ├── UserService.java
+│    ├── UserServiceImpl.java
+├── controller/
+│    ├── UserQueryController.java
+│    ├── UserCommandController.java
+├── query/
+│    ├── UserQueryHandler.java
+│    ├── UserQueryDTO.java
+├── command/
+│    ├── UserCommandHandler.java
+│    ├── UserCommandDTO.java

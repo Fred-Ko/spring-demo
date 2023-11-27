@@ -1,0 +1,21 @@
+# 데이터베이스 설정
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: test
+    password: test
+
+# Flyway 설정 (데이터베이스 마이그레이션)
+flyway:
+  enabled: true
+  baseline-on-migrate: true
+  url: jdbc:postgresql://localhost:5432/test
+  user: test
+  password: test
+
+# GraphQL 설정
+graphql:
+  servlet:
+    enabled: true
+  schema-location-pattern: classpath:schema.graphqls
+  error-message-enabled: true
