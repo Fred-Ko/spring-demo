@@ -37,7 +37,7 @@ dependencies {
     // PostgreSQL 데이터베이스 드라이버
     implementation("org.postgresql:postgresql")
     // Lombok 라이브러리
-    implementation("org.projectlombok:lombok:1.18.22")
+    implementation("org.projectlombok:lombok")
     // 가짜 데이터 생성을 위한 JavaFaker
     implementation("com.github.javafaker:javafaker:1.0.2")
     // 테스트를 위한 JUnit Jupiter
