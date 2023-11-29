@@ -29,10 +29,12 @@ public class User {
     @NotBlank
     private String email;
 
+    @Email
+    @NotBlank
+    private String subEmail;
+
     @NotBlank
     @Size(min = 8, max = 20)
     private String password;
 
 }
-
-// Hello ChatGPTs
