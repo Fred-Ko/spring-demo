@@ -38,3 +38,5 @@ public class User {
     private String password;
 
 }
+
+// Path: src/main/java/com/example/myapp/User/aggregate/UserRepository.java
